@@ -1,6 +1,6 @@
+use sqlx::PgPool;
 use std::net::TcpListener;
 use test_api::{get_configuration, run};
-use sqlx::PgPool;
 
 #[actix_web::main]
 async fn main() -> std::io::Result<()> {
